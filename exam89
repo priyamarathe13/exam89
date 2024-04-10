@@ -1,1 +1,129 @@
+SeatNo. 366289
 External practical examination at mca apri2024
+this is local side
+
+Dell@DESKTOP-U98P43Q MINGW64 ~/Desktop/exam89 (exam89)
+$ git config --global user.name "priyamarathe13"
+
+Dell@DESKTOP-U98P43Q MINGW64 ~/Desktop/exam89 (exam89)
+$ git config --global user.email "priyamarathe1311@gmail.com"
+
+Dell@DESKTOP-U98P43Q MINGW64 ~/Desktop/exam89 (exam89)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=priyamarathe13
+user.email=priyamarathe1311@gmail.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+gui.wmstate=normal
+:...skipping...
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=priyamarathe13
+user.email=priyamarathe1311@gmail.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+gui.wmstate=normal
+gui.geometry=893x435+182+182 175 196
+
+
+
+Dell@DESKTOP-U98P43Q MINGW64 ~/Desktop/exam89 (exam89)
+$ git clone https://github.com/priyamarathe13/exam89.git
+Cloning into 'exam89'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+Dell@DESKTOP-U98P43Q MINGW64 ~/Desktop/exam89 (exam89)
+$ git branch
+  Priyanka
+* exam89
+  feature1
+  feature2
+  feature4
+  main
+  master
+  priya
+
+Dell@DESKTOP-U98P43Q MINGW64 ~/Desktop/exam89 (exam89)
+$ git checkout -b main
+fatal: a branch named 'main' already exists
+
+Dell@DESKTOP-U98P43Q MINGW64 ~/Desktop/exam89 (exam89)
+$ git branch
+  Priyanka
+* exam89
+  feature1
+  feature2
+  feature4
+  main
+  master
+  priya
+
+Dell@DESKTOP-U98P43Q MINGW64 ~/Desktop/exam89 (exam89)
+$ ^C
+
+Dell@DESKTOP-U98P43Q MINGW64 ~/Desktop/exam89 (exam89)
+$ ^C
+
+Dell@DESKTOP-U98P43Q MINGW64 ~/Desktop/exam89 (exam89)
+$ git add .
+fatal: Unable to create 'C:/Users/Dell/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+Dell@DESKTOP-U98P43Q MINGW64 ~/Desktop/exam89 (exam89)
+$ git add .
+fatal: Unable to create 'C:/Users/Dell/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+Dell@DESKTOP-U98P43Q MINGW64 ~/Desktop/exam89 (exam89)
+$ git merge main
+Already up to date.
+
+Dell@DESKTOP-U98P43Q MINGW64 ~/Desktop/exam89 (exam89)
+$
